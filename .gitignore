@@ -1,0 +1,23 @@
+# Entorno virtual (cualquiera de estos nombres)
+.env/
+env/
+.venv/
+
+# Secretos
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+*.log
+
+# Editor y sistema
+.vscode/
+.idea/
+Thumbs.db
